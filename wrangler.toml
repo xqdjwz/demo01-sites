@@ -10,12 +10,12 @@ run_worker_first = true
 
 [[d1_databases]]
 binding = "DB"
-database_name = "demo-sites-cloudflare-db"
-database_id = "98068b04-8d21-4328-b6a2-bc75751f25b3"
+database_name = "demo01-sites-db"
+database_id = "a2d7fb52-9e87-4aae-b71a-9e65cca0fcd4"
 
 [[r2_buckets]]
 binding = "R2_BUCKET"
-bucket_name = "demo-sites-files"
+bucket_name = "demo01-sites-files"
 
 [triggers]
 # 每12小时执行一次（UTC）
